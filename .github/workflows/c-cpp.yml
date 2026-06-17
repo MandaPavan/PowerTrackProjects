@@ -8,7 +8,7 @@ on:
 
 defaults:
   run:
-    working-directory: ./MP3_TAG_READ_EDIT
+    working-directory: ./Lexical_Analzyer
 
 jobs:
   build:
@@ -22,4 +22,4 @@ jobs:
       
     - name: Run the Program
       # 🛠️ Changed this line to match your compiled output name
-      run: ./mp3_tag_editor
+      run: ./lexical_analyzer test.c
